@@ -61,7 +61,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(tournie, tournieIdx) in tournies" :key="tournie.email" :class="tournieIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'">
+              <tr v-for="(tournie, tournieIdx) in tournies" :key="tournie.name + tournie.date" :class="tournieIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'">
                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                   {{ tournie.name }}
                 </td>

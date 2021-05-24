@@ -118,7 +118,6 @@ import {
   XIcon,
 } from '@heroicons/vue/outline'
 import { ChevronLeftIcon, FilterIcon, MailIcon, SearchIcon } from '@heroicons/vue/solid'
-import { Dialog, DialogOverlay, TransitionChild, TransitionRoot } from '@headlessui/vue'
 
 const profile = {
   name: 'Mayson12381',
